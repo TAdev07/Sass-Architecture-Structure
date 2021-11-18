@@ -1,0 +1,17 @@
+{
+  "name": "sass-architecture-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass --output-style compressed --include-path scss sass/_main.scss style.css",
+    "watch": "nodemon -e scss -x \"npm run css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
